@@ -11,10 +11,8 @@ public class Zoo {
 		a2.speak();
 		a3.speak();
 		
-		a1.fly();
-		
 		Bird b1 = new Bird("eagle", 2, 0.8, 40, "Gold");
-		b1.fly();
+		
 		b1.move();
 		b1.speak();
 		
@@ -22,5 +20,10 @@ public class Zoo {
 		f1.swim();
 		f1.move();
 		f1.speak();
+		
+		Chicken c1 = new Chicken("Venda", 2, 0.4, 20, "black and white");
+		c1.fly();
+		c1.move();
+		c1.speak();
 	}	
 }
