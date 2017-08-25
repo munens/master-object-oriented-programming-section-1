@@ -10,6 +10,17 @@ public class Zoo {
 		a1.move();
 		a2.speak();
 		a3.speak();
-	}
-	
+		
+		a1.fly();
+		
+		Bird b1 = new Bird("eagle", 2, 0.8, 40, "Gold");
+		b1.fly();
+		b1.move();
+		b1.speak();
+		
+		Fish f1 = new Fish("Shark", 0, 0.6, 80, "Gray");
+		f1.swim();
+		f1.move();
+		f1.speak();
+	}	
 }

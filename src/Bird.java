@@ -1,7 +1,11 @@
 
-public class Bird {
+public class Bird extends Animal {
 	
-	public Bird() {
-		
+	public Bird(String commonName, int noOfLegs, double averageHeight, int averageWeight, String color) {
+		super(commonName, noOfLegs, averageHeight, averageWeight, color);
+	}
+	
+	public void fly() {
+		System.out.println("I am a bird and I can fly!");
 	}
 }
